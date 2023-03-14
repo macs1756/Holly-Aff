@@ -1,0 +1,33 @@
+
+.create-comment{
+	display: none;
+}
+
+#addComment{
+	cursor: pointer;
+}
+
+.create-comment__wrapper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #eeeff4;
+	margin: 10px 0;
+	padding: 10px;
+
+}
+
+.create-comment__name {
+	margin-bottom: 20px;
+}
+
+.create-comment__body {
+	margin-bottom: 20px;
+	resize: none;
+	width: 300px;
+	height: 80px;
+}
+
+.create-comment__button {
+}
